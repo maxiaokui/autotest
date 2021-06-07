@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[用例编号为1.0]]>
+    </line>
+    <line>
+      <![CDATA[用例是否执行Yes]]>
+    </line>
+    <line>
+      <![CDATA[请求host:http://8.131.245.231:8080]]>
+    </line>
+    <line>
+      <![CDATA[用例编号为2.0]]>
+    </line>
+    <line>
+      <![CDATA[用例是否执行Yes]]>
+    </line>
+    <line>
+      <![CDATA[请求host:http://8.131.245.231:8080]]>
+    </line>
+    <line>
+      <![CDATA[用例编号为2.0]]>
+    </line>
+    <line>
+      <![CDATA[用例是否执行Yes]]>
+    </line>
+    <line>
+      <![CDATA[请求host:http://8.131.245.231:8080]]>
+    </line>
+    <line>
+      <![CDATA[用例编号为2.0]]>
+    </line>
+    <line>
+      <![CDATA[用例是否执行Yes]]>
+    </line>
+    <line>
+      <![CDATA[请求host:http://8.131.245.231:8080]]>
+    </line>
+    <line>
+      <![CDATA[用例编号为2.0]]>
+    </line>
+    <line>
+      <![CDATA[用例是否执行Yes]]>
+    </line>
+    <line>
+      <![CDATA[请求host:http://8.131.245.231:8080]]>
+    </line>
+  </reporter-output>
+  <suite name="优测教育" duration-ms="9981" started-at="2021-06-06T13:32:47Z" finished-at="2021-06-06T13:32:57Z">
+    <groups>
+    </groups>
+    <test name="接口自动化" duration-ms="9981" started-at="2021-06-06T13:32:47Z" finished-at="2021-06-06T13:32:57Z">
+      <class name="com.youceedu.interf.test.TestRun">
+        <test-method status="PASS" signature="httpReq(java.lang.Object, java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.youceedu.interf.test.TestRun@100fc185]" name="httpReq" duration-ms="2258" started-at="2021-06-06T21:32:48Z" data-provider="dp" finished-at="2021-06-06T21:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[马晓魁--正确的账号和密码登录]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Post]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://8.131.245.231:8080]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/api/loginCheck]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[id=10002&passwd=123456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[$.msg:读者登陆成功 $.stateCode:2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[YES]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[/api/loginCheck:$.stateCode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[用例编号为1.0]]>
+            </line>
+            <line>
+              <![CDATA[用例是否执行Yes]]>
+            </line>
+            <line>
+              <![CDATA[请求host:http://8.131.245.231:8080]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- httpReq -->
+        <test-method status="FAIL" signature="httpReq(java.lang.Object, java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.youceedu.interf.test.TestRun@100fc185]" name="httpReq" duration-ms="176" started-at="2021-06-06T21:32:51Z" data-provider="dp" finished-at="2021-06-06T21:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[修改密码(请求数据需要依赖)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Post]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://8.131.245.231:8080]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/api/loginCheck/do]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[oldpassword=/api/loginCheck:$.stateCode&newpasswd=123456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[$.msg:读者登陆成功 $.stateCode:12]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.alibaba.fastjson.JSONException">
+            <message>
+              <![CDATA[syntax error, pos 1, line 1, column 2您的服务器返回码为404请检查您的地址]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2您的服务器返回码为404请检查您的地址
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1497)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1383)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:182)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:192)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:148)
+	at com.alibaba.fastjson.JSONPath.read(JSONPath.java:688)
+	at com.youceedu.interf.util.PatternUtil.conpareResultTodb(PatternUtil.java:79)
+	at com.youceedu.interf.test.TestRun.httpReq(TestRun.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.alibaba.fastjson.JSONException -->
+          <reporter-output>
+            <line>
+              <![CDATA[用例编号为2.0]]>
+            </line>
+            <line>
+              <![CDATA[用例是否执行Yes]]>
+            </line>
+            <line>
+              <![CDATA[请求host:http://8.131.245.231:8080]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- httpReq -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.youceedu.interf.test.TestRun@100fc185]" name="afterTest" is-config="true" duration-ms="5574" started-at="2021-06-06T21:32:52Z" finished-at="2021-06-06T21:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.youceedu.interf.test.TestRun -->
+    </test> <!-- 接口自动化 -->
+  </suite> <!-- 优测教育 -->
+</testng-results>

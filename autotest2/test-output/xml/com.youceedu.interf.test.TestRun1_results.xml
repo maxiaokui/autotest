@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="接口自动化"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.018">
+  <properties />
+  
+  
+            <testcase name="httpReq" time="0.018" classname="com.youceedu.interf.test.TestRun1" />
+      
+</testsuite>
